@@ -48,7 +48,7 @@ public class PostRepository implements IPostRepository {
         if (posts.containsKey(id)) {
             posts.remove(id);
         } else {
-            throw new NotFoundException("Введен неверный id");
+            throw new NotFoundException("Wrong id");
         }
     }
 }
