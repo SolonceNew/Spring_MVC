@@ -4,7 +4,6 @@ import org.apache.catalina.LifecycleException;
 import org.apache.catalina.connector.Connector;
 import org.apache.catalina.startup.Tomcat;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 
